@@ -4,6 +4,6 @@
 
 # Repository Structure
 
-## Dataset
+## Datasets
 
 ## Code
