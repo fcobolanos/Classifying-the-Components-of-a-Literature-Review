@@ -2,6 +2,8 @@
 
 ## Abstract
 
-# Repository Strucuture
+# Repository Structure
+
 ## Dataset
+
 ## Code
