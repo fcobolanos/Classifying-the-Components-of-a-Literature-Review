@@ -36,12 +36,17 @@ An OpenAI API Key (for GPT-based experiments) or HuggingFace access (for open so
 
 ## 📝 Citation
 
-## Citation
-
 If you use this code, the **Sci-Sentence** benchmark, or the findings from this project in your research, please cite the following paper:
 
 Bolaños, F., Salatino, A., Osborne, F., & Motta, E. (2025). Modelling and Classifying the Components of a Literature Review. *arXiv preprint arXiv:2508.04337*. [https://doi.org/10.48550/arXiv.2508.04337](https://doi.org/10.48550/arXiv.2508.04337)
 
-## ⚖️ License
-This project is licensed under the MIT License.
+## ⚖️ License & Open Access
+
+This project is fully **open-source** and **free to use** for both academic research and commercial applications. 
+
+- **Code:** Licensed under the [MIT License](LICENSE). You are free to copy, modify, and distribute the code without restriction.
+- **Datasets (Sci-Sentence):** Licensed under [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/). You are free to share and adapt the data as long as you provide appropriate credit (see [Citation](#citation)).
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 
