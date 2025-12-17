@@ -3,15 +3,7 @@ This repository contains the official code, datasets, and experimental results f
 
 The project introduces the Sci-Sentence benchmark, a multidisciplinary dataset designed to identify the rhetorical roles of sentences in scientific literature reviews using Large Language Models (LLMs) based on Zero-Shot Learning(ZSL) and Finetuning.
 
-
-I've updated the README to include a dedicated section on the Data Augmentation process. This explains how you used LLMs to balance the dataset, which is a key technical highlight of your research.
-
-Classifying the Components of a Literature Review
-This repository contains the official code, datasets, and experimental results for the paper: "Modelling and Classifying the Components of a Literature Review."
-
-The project introduces the Sci-Sentence benchmark, a multidisciplinary dataset designed to identify the rhetorical roles of sentences in scientific literature reviews using Large Language Models (LLMs) and fine-tuned transformers.
-
-📖 **Overview**
+# 📖 **Overview**
 Writing a literature review is a cornerstone of scientific research, yet identifying the specific functional roles of sentences (e.g., identifying a research gap vs. describing a result) remains a challenge for automated systems. This project provides:
 
 A novel 7-class annotation schema for literature review components.
