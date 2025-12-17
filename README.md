@@ -42,12 +42,15 @@ Evaluation Metrics: Scripts designed to generate confusion matrices, F1-scores, 
 ## 🚀 Usage Instructions
 
 1. Prerequisites
-Python 3.9 or higher
-
-An OpenAI API Key (for GPT-based experiments) or HuggingFace access (for open source LLMs).
+    Python 3.9 or higher
+    An OpenAI API Key (for GPT-based experiments) or HuggingFace access (for open source LLMs)
 
 2. Data Input
 Place any new literature review text files in the data/raw/ directory. The scripts are configured to output the classified sentences into the data/processed/ folder.
+
+4. dddd
+
+5. ddd
 
 ## 📝 Citation
 
