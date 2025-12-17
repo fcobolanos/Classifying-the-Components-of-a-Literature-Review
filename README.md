@@ -11,11 +11,11 @@ A novel 7-class annotation schema for literature review components.
 The Sci-Sentence Benchmark (700 manually annotated + 2,240 augmented sentences).
 
 Benchmarking scripts for Zero-shot and Fine-tuned LLMs.
-<img width="741" height="363" alt="Screenshot 2025-12-17 at 15 40 42" src="https://github.com/user-attachments/assets/c52e5aa3-76a6-45dd-90ca-20958246b120" />
 
 
 ## 📊 **The Sci-Sentence Benchmark**
 The dataset classifies sentences into seven distinct rhetorical categories:
+<img width="741" height="363" alt="Screenshot 2025-12-17 at 15 40 42" src="https://github.com/user-attachments/assets/c52e5aa3-76a6-45dd-90ca-20958246b120" />
 
 
 
