@@ -20,7 +20,7 @@ The dataset classifies sentences into seven distinct rhetorical categories:
 The benchmark is accesible [here](./datasets)
 
 ## 🤖 LLM-Based Data Augmentation
-A significant challenge in scientific NLP is the scarcity of labeled data. To address class imbalance and increase the robustness of our classifiers, we implemented a Semi-Synthetic Data Augmentation pipeline:
+A significant challenge in scientific NLP is the scarcity of labeled data. To address class imbalance and increase the robustness of our classifier, we implemented a Semi-Synthetic Data Augmentation pipeline:
 
 1. Seed Selection: We started with the 560 sentences from the training and validation sets.
 2. Prompt Engineering: We utilized Sonnet 3.0 to generate synthetic variations of minority classes (e.g., Extension or Limitation).
