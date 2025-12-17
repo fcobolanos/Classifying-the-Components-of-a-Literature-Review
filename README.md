@@ -25,7 +25,7 @@ A significant challenge in scientific NLP is the scarcity of labeled data. To ad
 1. Seed Selection: We started with the 560 sentences from the training and validation sets.
 2. Prompt Engineering: We utilized Sonnet 3.0 to generate synthetic variations of minority classes (e.g., Extension or Limitation).
 3. Quality Control: Synthetic sentences were filtered for linguistic coherence to ensure they maintained the technical tone of actual literature reviews.
-4. Final Dataset: The resulting Sci-Sentence Augmented dataset contains 2,940 sentences, significantly improving the F1-scores of encoder fine-tuned models.
+4. Final Dataset: The resulting Sci-Sentence Augmented dataset contains 2,240 sentences, significantly improving the F1-scores of encoder fine-tuned models.
 
 
 ## 🚀 **Getting Started**
