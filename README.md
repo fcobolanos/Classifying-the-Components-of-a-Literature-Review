@@ -33,9 +33,9 @@ A significant challenge in scientific NLP is the scarcity of labeled data. To ad
 This project is organized into two primary workflows: Zero-Shot Learning and Fine-Tuning.
 
 ### 🧠 Zero-Shot Learning (ZSL)
-This project also supports a Zero-Shot Learning workflow, allowing for immediate classification of scientific discourse using large-scale foundation models. Unlike the fine-tuning workflow, these notebooks leverage the inherent reasoning capabilities of pre-trained models to categorize text without further training.
+This project supports a Zero-Shot Learning workflow, allowing for immediate classification of scientific discourse using large-scale foundation models. Unlike the fine-tuning workflow, these notebooks leverage the inherent reasoning capabilities of pre-trained models to categorize text without further training.
 
-**1. SentenceClassifier.ipynb: ** This notebook serves as the primary ZSL execution environment. It utilizes Amazon Bedrock and LangChain to interface with multiple high-performance models (such as Llama 3, Claude 3, and Mistral).
+**1. SentenceClassifier.ipynb:**  This notebook serves as the primary ZSL execution environment. It utilizes Amazon Bedrock and LangChain to interface with multiple high-performance models (such as Llama 3, Claude 3, and Mistral).
 
    1.1 Prompt Engineering: Employs structured system instructions, defining the model's role as a "scientific researcher" to ensure high-quality categorization.
 
@@ -43,7 +43,7 @@ This project also supports a Zero-Shot Learning workflow, allowing for immediate
 
    1.3 Automated Pipeline: Reads datasets from pandas DataFrames and exports the ZSL results directly to CSV format for analysis.
 
-**2. Kobold_DeMOV_Q.ipynb: ** An official KoboldCpp environment designed to deploy GGUF-formatted models for ZSL tasks.
+**2. Kobold_DeMOV_Q.ipynb:** An official KoboldCpp environment designed to deploy GGUF-formatted models for ZSL tasks.
 
    2.1 Local/Remote Deployment: Allows for the selection and loading of various GGUF models from Hugging Face for instant zero-shot inference.
 
