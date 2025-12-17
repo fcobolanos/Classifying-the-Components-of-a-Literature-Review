@@ -28,11 +28,26 @@ A significant challenge in scientific NLP is the scarcity of labeled data. To ad
 4. Final Dataset: The resulting Sci-Sentence Augmented dataset contains 2,240 sentences, significantly improving the F1-scores of encoder fine-tuned models.
 
 
-## 🚀 **Getting Started**
-Prerequisites
+## 💻 Code Information
+This section provides an overview of the technical implementation and the logic behind the classification pipeline.
+
+Architecture: The project utilizes a pipeline that includes text preprocessing (tokenization, lemmatization), feature engineering, and classification.
+
+Model Implementation: Detailed implementation of various machine learning models (e.g., SVM, Random Forest) and Deep Learning approaches (e.g., BERT-based transformers) used to categorize rhetorical moves.
+
+Feature Engineering: Includes scripts for calculating TF-IDF vectors, word embeddings, and sentence-level features that capture the structural nuances of academic writing.
+
+Evaluation Metrics: Scripts designed to generate confusion matrices, F1-scores, and precision-recall curves to validate model performance against the Sci-Sentence benchmark.
+
+## 🚀 Usage Instructions
+
+1. Prerequisites
 Python 3.9 or higher
 
 An OpenAI API Key (for GPT-based experiments) or HuggingFace access (for open source LLMs).
+
+2. Data Input
+Place any new literature review text files in the data/raw/ directory. The scripts are configured to output the classified sentences into the data/processed/ folder.
 
 ## 📝 Citation
 
