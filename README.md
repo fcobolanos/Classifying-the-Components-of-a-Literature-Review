@@ -32,7 +32,7 @@ A significant challenge in scientific NLP is the scarcity of labeled data. To ad
 ## 💻 Code Information
 This project is organized into two primary workflows: Training and Inference.
 
-# 🏗️ Model Fine-Tuning
+### 🏗️ Model Fine-Tuning
 
 Notebooks prefixed with LRO_fine_tuning (e.g., LRO_fine_tuning_Phi_LoRA_01.ipynb) are dedicated to the supervised fine-tuning (SFT) of Large Language Models. These files handle:
 
@@ -42,7 +42,7 @@ Notebooks prefixed with LRO_fine_tuning (e.g., LRO_fine_tuning_Phi_LoRA_01.ipynb
 
 **Weight Export:** Saving the final fine-tuned adapters and tokenizers for later use.
 
-# 🔍 Model Inference
+### 🔍 Model Inference
 
 Notebooks prefixed with LRO_ft (e.g., LRO_ft_Phi_01.ipynb) are used for performing inference with the fine-tuned models. These files focus on:
 
