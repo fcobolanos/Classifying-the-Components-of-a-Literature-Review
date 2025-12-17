@@ -30,15 +30,29 @@ A significant challenge in scientific NLP is the scarcity of labeled data. To ad
  The code to generate semi-synthetic data is [here](./code/augmented_data)
 
 ## 💻 Code Information
-This section provides an overview of the technical implementation and the logic behind the classification pipeline.
+This project is organized into two primary workflows: Training and Inference.
 
-Architecture: The project utilizes a pipeline that includes text preprocessing (tokenization, lemmatization), feature engineering, and classification.
+# 🏗️ Model Fine-Tuning
 
-Model Implementation: Detailed implementation of various machine learning models (e.g., SVM, Random Forest) and Deep Learning approaches (e.g., BERT-based transformers) used to categorize rhetorical moves.
+Notebooks prefixed with LRO_fine_tuning (e.g., LRO_fine_tuning_Phi_LoRA_01.ipynb) are dedicated to the supervised fine-tuning (SFT) of Large Language Models. These files handle:
 
-Feature Engineering: Includes scripts for calculating TF-IDF vectors, word embeddings, and sentence-level features that capture the structural nuances of academic writing.
+**LoRA Configuration:** Setting up Low-Rank Adaptation parameters such as rank ($r$) and alpha.
 
-Evaluation Metrics: Scripts designed to generate confusion matrices, F1-scores, and precision-recall curves to validate model performance against the Sci-Sentence benchmark.
+**Model Training:** Executing the training loop using the SFTTrainer and validation callbacks.
+
+**Weight Export:** Saving the final fine-tuned adapters and tokenizers for later use.
+
+# 🔍 Model Inference
+
+Notebooks prefixed with LRO_ft (e.g., LRO_ft_Phi_01.ipynb) are used for performing inference with the fine-tuned models. These files focus on:
+
+**Loading Checkpoints:** Loading the specific fine-tuned weights (e.g., Phi-Instruct-lro-finetune).
+
+**Categorization:** Classifying scientific discourse into specific categories such as Research Gaps, Results, or Limitations.
+
+**Batch Processing:** Running the model on test datasets and exporting predictions to CSV format.
+
+
 
 ## 🚀 Usage Instructions
 
