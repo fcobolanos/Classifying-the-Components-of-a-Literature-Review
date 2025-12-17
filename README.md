@@ -13,16 +13,16 @@ The Sci-Sentence Benchmark (700 manually annotated + 2,240 augmented sentences).
 Benchmarking scripts for Zero-shot and Fine-tuned LLMs.
 
 
-##📊 **The Sci-Sentence Benchmark**
+## 📊 **The Sci-Sentence Benchmark**
 The dataset classifies sentences into seven distinct rhetorical categories:
 
-##🚀 **Getting Started**
+## 🚀 **Getting Started**
 Prerequisites
 Python 3.9 or higher
 
 An OpenAI API Key (for GPT-based experiments) or HuggingFace access (for open source LLMs).
 
-##📝 Citation
+## 📝 Citation
 @article{bolanos2025modelling,
   title={Modelling and Classifying the Components of a Literature Review},
   author={Bolaños, Francisco and Salatino, Angelo and Osborne, Francesco and Motta, Enrico},
