@@ -30,3 +30,6 @@ An OpenAI API Key (for GPT-based experiments) or HuggingFace access (for open so
   year={2025}
 }
 
+## ⚖️ License
+This project is licensed under the MIT License.
+
