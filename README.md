@@ -17,7 +17,8 @@ Benchmarking scripts for Zero-shot and Fine-tuned LLMs.
 The dataset classifies sentences into seven distinct rhetorical categories:
 <img width="741" height="363" alt="Screenshot 2025-12-17 at 15 40 42" src="https://github.com/user-attachments/assets/c52e5aa3-76a6-45dd-90ca-20958246b120" />
 
-## 🤖 LLM-Based Data AugmentationA significant challenge in scientific NLP is the scarcity of labeled data. To address class imbalance and increase the robustness of our classifiers, we implemented a Semi-Synthetic Data Augmentation pipeline:
+## 🤖 LLM-Based Data Augmentation
+A significant challenge in scientific NLP is the scarcity of labeled data. To address class imbalance and increase the robustness of our classifiers, we implemented a Semi-Synthetic Data Augmentation pipeline:
 
 1. Seed Selection: We started with the 700 manually annotated sentences (the "Base" set).
 2. Prompt Engineering: We utilized GPT-4o to generate synthetic variations of minority classes (e.g., Extension or Limitation).
