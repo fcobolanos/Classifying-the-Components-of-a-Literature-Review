@@ -10,7 +10,7 @@ A novel 7-class annotation schema for literature review components.
 
 The Sci-Sentence Benchmark (700 manually annotated + 2,240 augmented sentences).
 
-Benchmarking scripts for Zero-shot and Fine-tuned LLMs.
+Benchmarking scripts for Zero-shot and Fine-tuned (LoRA, NEFT) LLMs.
 
 
 ## 📊 **The Sci-Sentence Benchmark**
