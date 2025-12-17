@@ -34,13 +34,17 @@ This project is organized into two primary workflows: Training and Inference.
 
 ### 🏗️ Model Fine-Tuning
 
-Notebooks prefixed with LRO_fine_tuning (e.g., LRO_fine_tuning_Phi_LoRA_01.ipynb) are dedicated to the supervised fine-tuning (SFT) of Large Language Models. These files handle:
+Notebooks prefixed with LRO_fine_tuning (e.g., LRO_fine_tuning_Phi_01.ipynb) are dedicated to the supervised fine-tuning (SFT) of Large Language Models. These files handle:
 
 **LoRA Configuration:** Setting up Low-Rank Adaptation parameters such as rank ($r$) and alpha.
 
 **Model Training:** Executing the training loop using the SFTTrainer and validation callbacks.
 
 **Weight Export:** Saving the final fine-tuned adapters and tokenizers for later use.
+
+The table below shows fine-tuning settings for each model:
+
+<img width="677" height="380" alt="Screenshot 2025-12-17 at 22 52 45" src="https://github.com/user-attachments/assets/1d39edc8-1837-417e-8e58-4ee2bf376a8d" />
 
 ### 🔍 Model Inference
 
