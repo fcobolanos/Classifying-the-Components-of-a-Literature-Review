@@ -35,6 +35,24 @@ Python 3.9 or higher
 An OpenAI API Key (for GPT-based experiments) or HuggingFace access (for open source LLMs).
 
 ## 📝 Citation
+
+## Citation
+
+If you use this code, the **Sci-Sentence** benchmark, or the findings from this project in your research, please cite the following paper:
+
+### **APA Style**
+Bolaños, F., Salatino, A., Osborne, F., & Motta, E. (2025). Modelling and Classifying the Components of a Literature Review. *arXiv preprint arXiv:2508.04337*. [https://doi.org/10.48550/arXiv.2508.04337](https://doi.org/10.48550/arXiv.2508.04337)
+
+### **BibTeX**
+```bibtex
+@article{bolanos2025modelling,
+  title={Modelling and Classifying the Components of a Literature Review},
+  author={Bola{\~n}os, Francisco and Salatino, Angelo and Osborne, Francesco and Motta, Enrico},
+  journal={arXiv preprint arXiv:2508.04337},
+  year={2025},
+  url={[https://arxiv.org/abs/2508.04337](https://arxiv.org/abs/2508.04337)},
+  doi={10.48550/arXiv.2508.04337}
+}
 @article{bolanos2025modelling,
   title={Modelling and Classifying the Components of a Literature Review},
   author={Bolaños, Francisco and Salatino, Angelo and Osborne, Francesco and Motta, Enrico},
