@@ -39,6 +39,7 @@ This project is organized into two primary workflows: Zero-Shot Learning and Fin
 **Kobold_DeMOV_Q.ipynb:** An official KoboldCpp environment designed to deploy GGUF-formatted models for ZSL tasks.
 
 The table below shows the ZSL settings for each model:
+
 <img width="507" height="264" alt="Screenshot 2025-12-18 at 00 01 09" src="https://github.com/user-attachments/assets/137a4057-69ae-4deb-8bf7-7d3dc4b09f72" />
 
 
