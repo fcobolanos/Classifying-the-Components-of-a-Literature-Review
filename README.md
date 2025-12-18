@@ -78,7 +78,7 @@ Notebooks prefixed with LRO_ft (e.g., LRO_ft_Phi.ipynb) are used for performing 
 
 **2. Execution:**
 
-    **_Zero-Shot Learning:_**
+   **_Zero-Shot Learning:_**
 
     1. Execute Kobold_DeMOV_Q.ipynb following the steps:
 
@@ -88,7 +88,7 @@ Notebooks prefixed with LRO_ft (e.g., LRO_ft_Phi.ipynb) are used for performing 
          
          Remote Connectivity: Generates a Cloudflare URL to provide API access to the zero-shot model from external applications
       
-   2. Execute the SentenceClassifier.ipynb based on the input file(Raters.xlsx) 
+    2. Execute the SentenceClassifier.ipynb based on the input file(Raters.xlsx) 
    
    **_Fine-Tuning:_**
 
