@@ -78,7 +78,7 @@ Notebooks prefixed with LRO_ft (e.g., LRO_ft_Phi.ipynb) are used for performing 
 
 **2. Execution:**
 
-**  _ Zero-Shot Learning:_**
+ **_ Zero-Shot Learning:_**
 
     1. Execute Kobold_DeMOV_Q.ipynb following the steps:
 
