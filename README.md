@@ -76,13 +76,31 @@ Notebooks prefixed with LRO_ft (e.g., LRO_ft_Phi.ipynb) are used for performing 
       
    An OpenAI API Key (for GPT-based experiments) or HuggingFace access (for open source LLMs)
 
-2. Data Input
+2. Execution:
+
+   **Zero-Shot Learning:**
+
+    1. Execute Kobold_DeMOV_Q.ipynb following the steps:
+
+      Runtime Environment: Sets up a KoboldCpp backend on Google Colab with GPU acceleration.
+      
+      Flexible Loading: Supports loading a variety of models (e.g., Gemma, Phi-3, Llama) directly from Hugging Face for ZSL tasks.
+      
+      Remote Connectivity: Generates a Cloudflare URL to provide API access to the zero-shot model from external applications
    
-   Place any new literature review text files in the data/raw/ directory. The scripts are configured to output the classified sentences into the data/processed/   folder.
+   2. Execute the SentenceClassifier.ipynb based on the input file(Raters.xlsx) 
+   
+   **Fine-Tuning:**
 
-5. dddd
+    1. Execute the notebooks prefixed with LRO_fine_tuning based in the input file (LR_Dataset_Original_Sythetic_Final.xlsx).
+    2. When using the optimisation technique  NEFT, comment out the line _neftune_noise_alpha_ of the SFTTrainer class.
+    3. The fine-tuned model will be store on the Drive.
+  
+   **Model Inference:**
 
-6. ddd
+    1. Execute the notebooks prefixed with LRO_ft based in the input file (LR_Dataset_Original_Sythetic_Final.xlsx).
+    2. Retrieved the fine-tunned model from the Drive
+
 
 ## 📝 Citation
 
